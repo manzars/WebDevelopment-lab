@@ -1,0 +1,96 @@
+  .squadList{
+  position:  absolute;
+  border-top: 1px solid #fff;
+  top: 54px;
+  color: #fff;
+  padding-left: 10px;
+  margin-top: 7px;
+  left: 0;
+  width: 100%;
+  margin-right: -2px;
+  background-color: #2f2f2f;
+  }
+
+.squadList, h3{
+  font-weight: normal;
+  text-align: center;
+  word-spacing: 3px;
+  letter-spacing: 1.5px;
+  font-family: sans-serif;
+
+}
+
+
+
+
+.ull{
+  position: relative;
+  list-style: none;
+  top: 90px;
+  display: inline-block;
+  top: 100px;
+  left:20px;
+  width: 97%;
+  padding: 0;
+}
+
+
+.playerCard{
+  position: relative;
+  margin-top: 16px;
+  height: 70px;
+  /* width: 1250px; */
+  /* border: 1px solid black; */
+  border-radius: 33px;
+  background: linear-gradient(to right,rgba(47, 47, 47,.9),rgba(60, 180, 242, .6));
+  transition: transform 2s ease-in-out;
+
+}
+
+
+.playerName{
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #fff;
+  text-decoration: none;
+  position:absolute;
+  text-align: center;
+  padding-left: 105px;
+}
+
+.playerType{
+  color: #2f2f2f;
+  text-decoration: none;
+  position:absolute;
+  padding-top: 20px;
+  right: 90px;
+  padding-left: 50px;
+}
+
+.playerPhoto{
+  position : absolute;
+  width: 80px;
+  height: 80px;
+  left: -5px;
+  top:-5px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+}
+
+
+.playerCard:hover{
+  background: linear-gradient(to left,rgba(47, 47, 47,.9),rgba(60, 180, 242, 1));
+  transform: scaleY(1.1);
+  
+  }
+
+.captain{
+  position: absolute;
+  color: whilte;
+  right: -50px;
+  /* z-index: 999; */
+  top:-33px;
+  font-size: 30px;
+
+}
+

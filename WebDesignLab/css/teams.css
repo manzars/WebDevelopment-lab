@@ -1,0 +1,89 @@
+body{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+.ull{
+	margin-top: 75px;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-row-gap: 25px;
+	grid-column-gap: 20px;
+	padding-left: 12px;
+	padding-right: 12px;
+
+}
+
+.ull li{
+	width: auto;
+	height: 360px;
+	border: 1px solid black;	
+	display: inline-block;
+	position: relative;
+	border-radius: 6px;
+	text-align: center;
+	
+}
+
+
+.ull li img{
+	height:150px; 
+	width:150px;
+	position: absolute;
+	border-radius: 100px 50px;
+	border-right: 5px solid #fff;
+	left:25%;
+	top:-15px;
+
+}
+
+.ull li a{
+	text-decoration: none;
+}
+
+.teamName{
+	position:relative;
+	color: black;
+	font-size: 27px;
+	font-weight: bold;
+	top: 52%;
+	/*text-align: center;*/
+}
+
+
+.winner{
+	position: absolute;
+	top: 80%;
+	left: 33%;
+	color: black;
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+
+.ull li:nth-child(1){
+	background: lightblue;
+	
+	}
+.ull li:nth-child(2){
+	background: #eee;}
+.ull li:nth-child(3){
+	background: lightgreen;}
+.ull li:nth-child(4){
+	background: lightyellow;}
+.ull li:nth-child(5){
+	background: #ccc;}
+.ull li:nth-child(6){
+	background: lightblue;}
+.ull li:nth-child(7){
+	background: #ddd;}
+.ull li:nth-child(8){
+	background: lightcyan;}	
+
+
+.ull li:hover{
+	transform: scale(1.02,1.02);
+}

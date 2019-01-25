@@ -1,0 +1,55 @@
+body{
+	font-size: 16px;    /*basically 16pt font size is used in websites*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color:#eee;
+}
+
+header ul{
+	margin: 0;
+	position: relative;
+	padding-left: 10px;
+}
+
+header nav{
+	background-color:#eee;
+	margin: 0;
+	padding-left: 0;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 9999;
+	box-shadow: 0px -1px 8px black;
+}
+
+header nav ul li{
+	display: inline-block;
+	padding: 0px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+	position: relative;
+
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 18px 17px;
+	display: inline-block;
+
+	}
+
+
+
+header nav ul li:hover{
+	border-bottom: 2px solid #000;
+}
+
+.active{
+   border-bottom: 2px solid #000;
+}
+
+

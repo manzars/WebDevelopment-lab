@@ -1,0 +1,225 @@
+.ull{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 45px;
+	margin-top: 90px;
+	padding: 0 15px;
+
+} 
+
+.ull li{
+	height: 115px;
+	width: auto;
+	border-radius: 10px;
+	list-style: none;
+	background: linear-gradient(to left,#8FCF4F,orange);
+	position: relative;
+	border:	1px solid #8FCF4F;
+
+}
+
+
+.bg{
+	height: 500%;
+	width: 88%;
+	background-color: #ddd;
+	-webkit-clip-path: polygon(0 0, 100% 0, 92% 14%, 8% 14%);
+	clip-path: polygon(0 0, 100% 0, 92% 14%, 8% 14%);
+	z-index: 2;
+	position: absolute;
+	left:6%;
+}
+
+.team1, .team2{
+	display: inline-block;
+	z-index: 3;
+	position:absolute;
+	font-size: 33px;
+	top: 20px;
+}
+
+.team1{
+	right: 55%;}
+
+.team2{
+		left:55.5%;}
+
+.vs{
+	z-index: 3;
+	position: absolute;
+	left:47%;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	font-size: 40px;
+	width: 70px;
+	height: 67px;
+	bottom: 33px;
+	text-align: center;
+	padding: 0 5px;
+	padding-top: 13px;
+}
+
+
+.matchNo{
+	
+	z-index: 3;
+	position: absolute;
+	left:10px;
+	top:15px;
+}
+
+.matchNo h2{
+	left:16px;
+	position: absolute;
+	font-size: 37px;
+	top: 3px;
+}
+
+.date{
+	position: absolute;
+	z-index: 3;
+	left:14.5%;
+	bottom: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.date span{
+	padding:0 340px;
+}
+
+.group{
+	right: 23px;
+	top: 15px;
+	position: absolute;
+ }
+
+ .group h2{
+	right:16px;
+	position: absolute;
+	font-size: 37px;
+	top: 3px;
+}
+
+/*for update schedule page*/
+
+.selection{
+	position: relative;
+	/*background: pink;*/
+	width: 19%;
+	left:46%;
+	transform: translate(-50%,-50%);
+	top: 100px;
+	text-align: center;
+
+}
+
+
+.selection select{
+	width: 250px;
+	height: 50px;
+	background: #add886;  
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	padding-left: 15px;
+	color: black;
+	outline:none;
+	border:none; 	
+	border-radius: 25px 0 0 25px;
+}
+
+.selection input{
+	height: 50px;
+	width: 100px;
+	border-radius: 0 25px 25px 0;
+	border:none;
+	outline:none;
+	position: absolute;
+	margin-left:-2px;
+	background-color: black;
+	color: #fff;
+}
+
+/*.selection select{background: transparent;}*/
+.selection::after{
+	content: " \f13a";
+	font-family: "FontAwesome";
+	font-size:23px;
+	color: black;
+	position: absolute;
+	top: 13px;
+	right: 21px;
+	z-index: 2;
+	pointer-events: none;
+}
+
+.selection2{
+	width: 70%;
+	height: 200px;
+	position: relative;
+	left:15%;
+	top:150px;
+	background: orange;
+
+}
+
+
+
+
+.selection2 .team1{
+	position: absolute;
+	top: 10%;
+	left:2%;
+
+}
+
+.selection2 .team2{
+	position: absolute;
+	top: 10%;
+	left: 52.5%;
+}
+
+.deletion{
+	position: absolute;
+	left:50%;
+	transform: translate(-50%,-50%);
+	top: 200px;
+	border: 1px solid black;
+	padding: 6px 20px;
+	width: 225px;
+	border-radius: 25px;
+}
+
+.deletion input[type="text"]{
+	border-radius: 50%;
+	height: 45px;
+	width: 45px;
+	border: none;
+	background: #add886;
+	font-size: 30px;
+	padding:7px;
+
+}
+
+.deletion input[type="submit"]{
+	position: absolute;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	border: none;
+	background: black;
+	margin-left: 5px;
+
+}
+
+.deletion::after{
+	content: " \f058";
+	font-family: "FontAwesome";
+	font-size: 55px;
+	z-index: 1;
+	color: white;
+	position: absolute;
+	pointer-events: none;
+	top: 8px;
+	right: 42px;
+}
