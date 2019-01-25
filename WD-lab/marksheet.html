@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Semester Marksheet</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<script type="text/javascript">
+		function loadXMLDoc(xname)
+		{
+			if(window.XMLHttpRequest)
+			{
+				xhttp=new XMLHttpRequest();
+			}
+			else
+			{
+				xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			xhttp.open("GET",xname,false);
+			xhttp.send();
+			return xhttp.responseXML;
+		}
+		function loadMarksheet()
+		{
+			xmlDoc=loadXMLDoc('marksheet.xml');
+			x=xmlDoc.getElementsByTagName("course");
+			var divText="<table >"+"<tr><th>COURSE ID</th>"+"<th>Title</th>"+"<th>TH</th>"+"<th>IA</th>"+"<th>TW</th>"+"<th>OP/PR</th>"+"<th>Total</th></tr>";
+			for(i=0;i<x.length;i++)
+			{
+				courseid=xmlDoc.getElementsByTagName("courseid")[i].childNodes[0].nodeValue;
+				title=xmlDoc.getElementsByTagName("title")[i].childNodes[0].nodeValue;
+				th=xmlDoc.getElementsByTagName("TH")[i].childNodes[0].nodeValue;
+				ia=xmlDoc.getElementsByTagName("IA")[i].childNodes[0].nodeValue;
+				tw=xmlDoc.getElementsByTagName("TW")[i].childNodes[0].nodeValue;
+				orpr=xmlDoc.getElementsByTagName("ORPR")[i].childNodes[0].nodeValue;
+				tt=xmlDoc.getElementsByTagName("total")[i].childNodes[0].nodeValue;
+				divText+="<tr><td>"+courseid+"</td><td>"+title+"</td><td>"+th+"</td><td>"+ia+"</td><td>"+tw+"</td><td>"+orpr+"</td><td>"+tt+"</td></tr>";
+
+			}
+			divText+="</table>";
+			document.getElementById("marksheet").innerHTML=divText;
+		}
+
+	</script>
+</head>
+<body>
+	
+
+	<input type="submit" onclick="loadMarksheet()">
+<div id="marksheet">	
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+[2018-09-01 12:26:24.087] [renderer1] [info] no standard startup: not the explorer viewlet
+[2018-09-01 12:27:04.426] [renderer1] [error] Unknown or unsupported transport 'disabled' for address 'disabled:': Error: Unknown or unsupported transport 'disabled' for address 'disabled:'
+[2018-09-01 12:42:25.594] [renderer1] [info] no standard startup: not just one text editor
+[2018-09-01 12:42:48.947] [renderer1] [error] Unknown or unsupported transport 'disabled' for address 'disabled:': Error: Unknown or unsupported transport 'disabled' for address 'disabled:'
+[2018-09-01 12:49:45.918] [renderer1] [error] Unknown or unsupported transport 'disabled' for address 'disabled:': Error: Unknown or unsupported transport 'disabled' for address 'disabled:'

@@ -1,0 +1,52 @@
+[2018-09-01 12:26:34.742] [exthost1] [info] extension host started
+[2018-09-01 12:26:34.851] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:26:34.851] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/52/usr/share/code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-09-01 12:26:35.198] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:26:35.198] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/52/usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-09-01 12:26:35.504] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:26:35.504] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/52/usr/share/code/resources/app/extensions/git/out/main
+[2018-09-01 12:26:37.235] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:26:37.235] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/52/usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-09-01 12:26:37.819] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:26:37.819] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/52/usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-09-01 12:26:38.034] [exthost1] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:26:38.034] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/hookyqr.beautify-1.4.2/extension
+[2018-09-01 12:26:39.730] [exthost1] [info] ExtensionService#_doActivateExtension karigari.chat {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:26:39.730] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/karigari.chat-0.5.8/out/extension
+[2018-09-01 12:26:48.022] [exthost1] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:26:48.022] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/ms-vsliveshare.vsliveshare-0.3.623/out/src/extension
+[2018-09-01 12:26:55.748] [exthost1] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:26:55.748] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/ritwickdey.liveserver-5.1.1/out/src/extension
+[2018-09-01 12:26:57.803] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:26:57.803] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/robertohuertasm.vscode-icons-7.25.0/out/src/
+[2018-09-01 12:26:58.326] [exthost1] [info] eager extensions activated
+[2018-09-01 12:27:00.549] [exthost1] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare-audio {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:27:00.549] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/ms-vsliveshare.vsliveshare-audio-0.1.32/out/extension
+[2018-09-01 12:42:28.574] [exthost1] [info] extension host started
+[2018-09-01 12:42:28.767] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:42:28.768] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/52/usr/share/code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-09-01 12:42:28.902] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:42:28.902] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/52/usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-09-01 12:42:29.211] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:42:29.211] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/52/usr/share/code/resources/app/extensions/git/out/main
+[2018-09-01 12:42:29.823] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:42:29.823] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/52/usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-09-01 12:42:29.861] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:42:29.861] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/52/usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-09-01 12:42:29.908] [exthost1] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:42:29.908] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/hookyqr.beautify-1.4.2/extension
+[2018-09-01 12:42:30.465] [exthost1] [info] ExtensionService#_doActivateExtension karigari.chat {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:42:30.465] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/karigari.chat-0.5.8/out/extension
+[2018-09-01 12:42:34.451] [exthost1] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:42:34.451] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/ms-vsliveshare.vsliveshare-0.3.623/out/src/extension
+[2018-09-01 12:42:38.883] [exthost1] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:42:38.883] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/ritwickdey.liveserver-5.1.1/out/src/extension
+[2018-09-01 12:42:40.988] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:42:40.988] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/robertohuertasm.vscode-icons-7.25.0/out/src/
+[2018-09-01 12:42:41.530] [exthost1] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:css"}
+[2018-09-01 12:42:41.530] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/52/usr/share/code/resources/app/extensions/css-language-features/client/out/cssMain
+[2018-09-01 12:42:42.250] [exthost1] [info] ExtensionService#_doActivateExtension ritwickdey.live-sass {"startup":false,"activationEvent":"onLanguage:scss"}
+[2018-09-01 12:42:42.250] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/ritwickdey.live-sass-3.0.0/out/src/extension
+[2018-09-01 12:42:50.027] [exthost1] [info] eager extensions activated
+[2018-09-01 12:42:50.205] [exthost1] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare-audio {"startup":true,"activationEvent":"*"}
+[2018-09-01 12:42:50.205] [exthost1] [info] ExtensionService#loadCommonJSModule /home/rizzu/.vscode/extensions/ms-vsliveshare.vsliveshare-audio-0.1.32/out/extension
